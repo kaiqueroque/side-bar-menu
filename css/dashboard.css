@@ -1,0 +1,19 @@
+.dashboard{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.dash1, .dash2{
+  display:flex;
+  justify-content: space-between;
+}
+.graphics{
+  display: inline-block;
+  margin: 1rem;
+  padding: .8rem;
+  border-radius: .5rem;
+  width: 50%;
+  height: 20rem;
+  background: rgba(255, 255, 255,1);
+}

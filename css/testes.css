@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background: #111b21;
+}
+.ballons{
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 600px;
+}
+.boxBallon{
+  display: flex-end;
+  align-items: center;
+  justify-content: space-between;
+}
+.boxBallon .active{
+  margin-right: auto;
+  padding: 15px;
+  border-radius: 20px 20px 20px 3px;
+  background-color: white;
+  font-size: 14px;
+  line-height: 19px;
+  color: #111b21;
+  width: fit-content;
+  max-width: 400px;
+
+  margin-bottom: 10px;
+}
+.boxBallon .passive{
+  margin-left: auto;
+  padding: 15px;
+  border-radius: 20px 20px 3px 20px;
+  background-color: #D9FDD3;
+  font-size: 14px;
+  line-height: 19px;
+  color: #111b21;
+  width: fit-content;
+  max-width: 400px;
+
+  margin-bottom: 10px;
+}
+
+.time{
+  margin-bottom: -12px;
+  text-align: right;
+  font-size: 11px;
+  font-style: italic;
+}
